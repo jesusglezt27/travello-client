@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const _api = axios.create({
-    baseURL: process.env.REACT_APP_SERVER_URL || "https://travello-server-rose.vercel.app/api",
+    baseURL: process.env.REACT_APP_SERVER_URL || "https://travello-server-six.vercel.app/api",
     timeout:10000
 })
 

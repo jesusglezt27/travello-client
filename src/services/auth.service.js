@@ -3,7 +3,7 @@ import axios from "axios";
 class AuthService {
   constructor() {
     this.api = axios.create({
-      baseURL: process.env.REACT_APP_SERVER_URL || "https://travello-server-rose.vercel.app/api",
+      baseURL: process.env.REACT_APP_SERVER_URL || "https://travello-server-six.vercel.app/api",
     });
 
     // Automatically set JWT token on the request headers for every request
